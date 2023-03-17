@@ -2,9 +2,10 @@
 /**
  * main - Entry point
  *
- * Description: print a quote using writ function.
+ * Description: print a quote using writ function
+ * 	write(int fd.const void *buf.size_t count)
  *
- * Return: Always 1
+ * Return: Always 1 (not success)
 */
 int main(void)
 {
