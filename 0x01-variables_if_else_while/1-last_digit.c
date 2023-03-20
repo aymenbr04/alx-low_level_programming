@@ -7,7 +7,7 @@
  * Description: print the value of n :
  *		greater than, is zero, is not less than 6.
  *
- * Return : 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)

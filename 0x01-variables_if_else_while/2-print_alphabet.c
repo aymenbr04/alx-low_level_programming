@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - print the alphabet in lowercase,
  *
- * Description : print alphabet in lowercase
- *		using only putchar function.
+ * followed by newline
  *
- * Return : 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
@@ -16,8 +15,8 @@ int main(void)
 	while (alphabet <= 'z')
 {
 		putchar(alphabet);
-		putchar('\n');
 		alphabet++;
 }
+	putchar('\n');
 	return (0);
 }
