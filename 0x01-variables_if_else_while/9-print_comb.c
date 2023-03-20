@@ -14,7 +14,7 @@ int main(void)
 	while (comb < 10)
 {
 	putchar(comb + '0');
-	if (i != 9)
+	if (comb != 9)
 	{
 		putchar(',');
 		putchar(' ');
