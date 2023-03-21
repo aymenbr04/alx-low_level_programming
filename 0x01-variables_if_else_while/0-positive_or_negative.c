@@ -19,15 +19,15 @@ int main(void)
 
 	if (n > 0)
 {
-		printf("\npositive");
+		printf("positive");
 }
 	else if (n == 0)
 {
-		printf("\nzero");
+		printf("zero");
 }
 	else
 {
-		printf("\nnegative");
+		printf("negative");
 }
 	return (0);
 }
